@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+    padding-left: 40px;
+    overflow: auto;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+    width: 200px;
+}

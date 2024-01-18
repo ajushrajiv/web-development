@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Einfache Webseite mit HTML</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Formular-Beispiel</title>
 </head>
 <body>
-    <header>
-        <h1>Willkommen aus der Webseite</h1>
-    </header>
 
-    <section>
-        <p>Moin Moin von unserer einfache website</p>
-        <div class="box">
-            <p>Gestylte Box Box</p>
-        </div>
-        <div class="fontfamily">
-            <p class="double">Font family examples are
-                <ul class="a">
-                    <li class="mono">Monospace</li>
-                    <li class="cur">Cursive</li>
-                    <li class="sans">Sansserif</li>
-                </ul>
-            </p>
-        </div>
-    </section>
+  <div class="container">
+    <h1>Kontaktformular</h1>
+    <form method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
 
-    <p class="link-margin">
-        <a href="default.asp" target="_blank">click here</a>
-    </p>
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Nachricht:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <input type="submit" value="Absenden">
+    </form>
+  </div>
+
+  <div class="container">
+    <form action="/action_page.php">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br><br>
+    <input type="submit" value="Submit">
+    </form>
+  </div>
+
 </body>
 </html>

@@ -1,0 +1,29 @@
+
+#login-button{
+    padding: 8px 16px;
+    margin: 4px 2px;
+    background-color: turquoise;
+    border-radius: 5px;
+    border-color: beige;
+}
+
+#signup-button{
+    border:none;
+    padding: 8px 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.icon{
+    padding-left: 10px;
+    float: left;
+    text-decoration: none;
+    color:rgb(127, 140, 255);
+    font-size: larger;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
