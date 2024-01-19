@@ -1,8 +1,8 @@
 
 #login-button{
     padding: 8px 16px;
-    margin: 4px 2px;
-    background-color: turquoise;
+    margin: 16px 2px;
+    background-color: rgb(138, 173, 174);
     border-radius: 5px;
     border-color: beige;
 }
@@ -15,15 +15,17 @@
 }
 
 .icon{
-    padding-left: 10px;
+    padding-left: 20px;
     float: left;
     text-decoration: none;
-    color:rgb(127, 140, 255);
+    color:rgb(56, 124, 126);
     font-size: larger;
 }
 
 .header{
     display: flex;
     justify-content: space-around;
+    position: sticky; top: 0;
+    background-color:azure;
 }
 

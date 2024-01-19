@@ -1,0 +1,78 @@
+.logo-desciption{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.temp-description{
+    display: flex;
+}
+
+h4{
+    letter-spacing: 3px;
+}
+
+.sub-temp{
+    padding-left: 24px;
+    padding-right: 24px;
+    float: left;
+}
+
+#msg-follow{
+    padding: 4px 4px;
+    margin: 16px 2px;
+    background-color: rgb(138, 173, 174);
+    border-radius: 5px;
+    border-color: beige;
+}
+
+#continues{
+    border:none;
+    padding: 4px 4px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.post-followers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.label-info{
+    background-color: #e7e7e7; 
+    color: black;
+    border-radius: 5px;
+    padding: 4px 4px;
+    margin: 4px 2px;
+}
+
+.des-text{
+    padding-left: 20px;
+    line-height: 6px;
+}
+
+.posted-images{
+    display: flex;
+    justify-content: center;
+}
+
+.image-template{
+    display: flex;
+    flex-direction: column;
+}
+
+.single-image{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    text-indent: 20px;
+}
